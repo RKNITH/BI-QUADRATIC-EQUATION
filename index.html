@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biquadratic Equation Solver</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Biquadratic Equation Solver</h1>
+        <p>A biquadratic equation is of the form: <em>ax</em><sup>4</sup> + <em>bx</em><sup>3</sup> +
+            <em>cx</em><sup>2</sup> + <em>dx</em> + <em>e</em> = 0
+        </p>
+        <form id="biquadraticForm">
+            <label for="a">a:</label>
+            <input type="number" id="a" name="a" required>
+            <label for="b">b:</label>
+            <input type="number" id="b" name="b" required>
+            <label for="c">c:</label>
+            <input type="number" id="c" name="c" required>
+            <label for="d">d:</label>
+            <input type="number" id="d" name="d" required>
+            <label for="e">e:</label>
+            <input type="number" id="e" name="e" required>
+            <button type="submit">Solve</button>
+        </form>
+        <div id="result"></div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.5.2/math.min.js"></script>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
